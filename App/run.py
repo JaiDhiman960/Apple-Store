@@ -1,4 +1,4 @@
-## run.py
+# run.py
 from app import app, db
 from models import User, Contact
 
