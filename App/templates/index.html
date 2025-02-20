@@ -23,10 +23,13 @@
     <div id="page1">
         <nav>
             <div class="nav-items">
-                <i class="ri-apple-fill"></i><a id="Store" href="">Store</a><a href="">Mac</a><a href="">iPad</a><a href="">iPhone</a><a href="">Watch</a><a href="">AirPods</a><a href="">TV & Home</a><a href="">Entertainment</a><a href="">Accessories</a><a href="">Support</a>
+                <i class="ri-apple-fill"></i><a id="Store" href="">Store</a><a href="">Mac</a><a href="">iPad</a><a href="">iPhone</a><a href="">Watch</a><a href="">AirPods</a><a href="">TV & Home</a><a href="">Delete</a><a href="/login">Login</a><a href="/logout">Logout</a>
                 <i class="ri-search-line"></i>
                 <i class="ri-shopping-bag-line"></i>
                 <i class="ri-menu-line"></i>
+                <form method="POST" action="/delete" onsubmit="return confirm('Are you sure you want to delete your account?');">
+                    <button type="submit" class="btn btn-warning">Delete Account</button>
+                </form>
             </div>
         </nav>
 
@@ -73,7 +76,7 @@
             <div class="hero-section-img">
                 <!-- <img src="Assests/iphone15black.jpg" alt=""> -->
                 <div class="hero-section-p hero-p">
-                    <h2>iPhone 15 Pro</h2>
+                    <h2>iPhone 16 Pro</h2>
                     <h3>Titanium. So strong. So light. So Pro.</h3>
                     <div class="links">
                         <a href="">Learn More <i class="ri-arrow-right-s-line"></i></a>
